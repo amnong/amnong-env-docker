@@ -48,7 +48,7 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git mvn python sublime zsh-syntax-highlighting tmux)
 
-ZSH_TMUX_AUTOSTART=true
+#ZSH_TMUX_AUTOSTART=true
 
 source $ZSH/oh-my-zsh.sh
 
@@ -93,4 +93,3 @@ alias ll='ls -lh'
 alias la='ls -lha'
 alias ltr='ls -lhtr'
 function llw() { ll `which $*` }
-
